@@ -1,0 +1,3 @@
+Can compile C++ source code without CMake (e.g. when code base quite small).
+
+Run `g++ -o run_program main.cpp` then `./run_program`

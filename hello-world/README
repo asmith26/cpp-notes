@@ -1,0 +1,8 @@
+Great introductory video on CMake: https://www.youtube.com/watch?v=elycr5wi9_g
+
+Notes:
+
+- **CMakeLists.txt** is the main instructions for CMake.
+  - It provides the steps needed to create the *Makefile* that actually compiles our C++ code. Run `cmake .` in the base dir to create the *Makefile* (various other files are created, but we only really need the *Makefile*).
+  - When we have the *Makefile*, run `make` in the same directory to compile.
+  - Run program with `./run_program`
